@@ -2,4 +2,5 @@ version 2.1
   jobs:
     all:
   image: python:3.8
-all in
+all in:
+ run: lscpu
