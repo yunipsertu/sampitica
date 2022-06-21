@@ -1,4 +1,4 @@
 version 2.1
   jobs:
     all:
-  image:
+  image: python 3.8
